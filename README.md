@@ -1,70 +1,51 @@
-# Getting Started with Create React App
+Dashboard de Proyectos Sector Agua - Prueba Técnica
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Este proyecto es una interfaz de visualización tipo dashboard que permite gestionar y explorar información relacionada con proLa interfaz está construida con ReactJS y estilizada completamente con CSS personalizado sin el uso de librerías de estilos 
 
-## Available Scripts
+Estructura del Proyecto
+/src
+/components → Componentes reutilizables como Panels, Projects, Dashboards, etc.
+/pages → Página principal Overview.jsx
+/styles → Estilos centralizados en App.css
+/data → Archivo mockData.js con datos simulados
+App.js
+index.js
+router.js
+README.md
 
-In the project directory, you can run:
 
-### `npm start`
+Tecnologías Usadas
+- Lenguaje: JavaScript
+- Framework: ReactJS (Create React App)
+- Estilos: CSS puro (sin frameworks)
+- Datos simulados: mockData.js
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Instalación y Ejecución
+1. Clona este repositorio en tu máquina:
+git clone https://github.com/tu-usuario/dashboard-api-luisas.git
+cd dashboard-api-luisas
+2. Instala las dependencias necesarias con el siguiente comando:
+npm install
+3. Una vez instaladas, inicia el servidor de desarrollo:
+npm start
+4. Esto abrirá la aplicación en tu navegador en:
+http://localhost:3000
+Funcionalidades principales
+- Barra lateral fija: navegación entre secciones (Inicio, Seguridad, Proyectos, Paneles, Tableros, Fuentes, etc.).
+- Barra superior contextual: muestra opciones adicionales según la sección seleccionada.
+- Vista de proyectos: selecciona y visualiza detalles completos de cada proyecto.
+- Paneles, tableros y fuentes de datos: filtrables por proyecto, con búsqueda rápida y presentación visual clara.
+- Diseño responsivo y moderno: tarjetas animadas, iconografía, colores sobrios y distribución elegante.
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Despliegue en producción
+Para generar los archivos optimizados de producción, ejecuta:
+npm run build
+Esto creará la carpeta build/ lista para ser desplegada en servicios como:
+- Vercel
+- Netlify
+- GitHub Pages
+- o cualquier servidor de archivos estáticos
+Autor
+Desarrollado por PruebaLuisa como parte de una prueba técnica
