@@ -23,7 +23,7 @@ Tecnologías Usadas
 
 Instalación y Ejecución
 1. Clona este repositorio en tu máquina:
-git clone https://github.com/tu-usuario/dashboard-api-luisas.git
+git clone https://github.com/LuisaSantana07/dashboard-api-luisas.git
 cd dashboard-api-luisas
 2. Instala las dependencias necesarias con el siguiente comando:
 npm install
